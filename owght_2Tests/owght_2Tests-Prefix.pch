@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'owght_2Tests' target in the 'owght_2Tests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
