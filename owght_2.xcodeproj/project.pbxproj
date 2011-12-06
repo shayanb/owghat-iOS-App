@@ -24,7 +24,24 @@
 		F54A973B148838F900F0DAEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F54A9739148838F900F0DAEE /* InfoPlist.strings */; };
 		F54A973E148838F900F0DAEE /* owght_2Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = F54A973D148838F900F0DAEE /* owght_2Tests.h */; };
 		F54A9740148838F900F0DAEE /* owght_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54A973F148838F900F0DAEE /* owght_2Tests.m */; };
+		F54A974C1489120F00F0DAEE /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = F54A974B1489120F00F0DAEE /* city.plist */; };
+		F54A975C1489B6D500F0DAEE /* 01-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = F54A975B1489B6D500F0DAEE /* 01-refresh.png */; };
+		F54A975E1489B74100F0DAEE /* 86-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = F54A975D1489B74100F0DAEE /* 86-camera.png */; };
+		F54A97601489B75C00F0DAEE /* 54-lock.png in Resources */ = {isa = PBXBuildFile; fileRef = F54A975F1489B75C00F0DAEE /* 54-lock.png */; };
+		F54A976A148AF2A900F0DAEE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54A9769148AF2A900F0DAEE /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F54A974D148912E600F0DAEE /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		F54A9734148838F900F0DAEE /* PBXContainerItemProxy */ = {
@@ -41,25 +58,30 @@
 		F54A970C148838F900F0DAEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F54A970E148838F900F0DAEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F54A9710148838F900F0DAEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F54A9714148838F900F0DAEE /* owght_2-Info.plist */ = {isa = PBXFileReference; path = "owght_2-Info.plist"; sourceTree = "<group>"; };
+		F54A9714148838F900F0DAEE /* owght_2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "owght_2-Info.plist"; sourceTree = "<group>"; };
 		F54A9716148838F900F0DAEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F54A9718148838F900F0DAEE /* owght_2-Prefix.pch */ = {isa = PBXFileReference; path = "owght_2-Prefix.pch"; sourceTree = "<group>"; };
+		F54A9718148838F900F0DAEE /* owght_2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "owght_2-Prefix.pch"; sourceTree = "<group>"; };
 		F54A9719148838F900F0DAEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F54A971B148838F900F0DAEE /* owght_2AppDelegate.h */ = {isa = PBXFileReference; path = owght_2AppDelegate.h; sourceTree = "<group>"; };
+		F54A971B148838F900F0DAEE /* owght_2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = owght_2AppDelegate.h; sourceTree = "<group>"; };
 		F54A971C148838F900F0DAEE /* owght_2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = owght_2AppDelegate.m; sourceTree = "<group>"; };
 		F54A971F148838F900F0DAEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		F54A9721148838F900F0DAEE /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		F54A9721148838F900F0DAEE /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		F54A9722148838F900F0DAEE /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		F54A9724148838F900F0DAEE /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
-		F54A9726148838F900F0DAEE /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		F54A9726148838F900F0DAEE /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		F54A9727148838F900F0DAEE /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		F54A9729148838F900F0DAEE /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
 		F54A9730148838F900F0DAEE /* owght_2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = owght_2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F54A9738148838F900F0DAEE /* owght_2Tests-Info.plist */ = {isa = PBXFileReference; path = "owght_2Tests-Info.plist"; sourceTree = "<group>"; };
+		F54A9738148838F900F0DAEE /* owght_2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "owght_2Tests-Info.plist"; sourceTree = "<group>"; };
 		F54A973A148838F900F0DAEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F54A973C148838F900F0DAEE /* owght_2Tests-Prefix.pch */ = {isa = PBXFileReference; path = "owght_2Tests-Prefix.pch"; sourceTree = "<group>"; };
+		F54A973C148838F900F0DAEE /* owght_2Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "owght_2Tests-Prefix.pch"; sourceTree = "<group>"; };
 		F54A973D148838F900F0DAEE /* owght_2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = owght_2Tests.h; sourceTree = "<group>"; };
 		F54A973F148838F900F0DAEE /* owght_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = owght_2Tests.m; sourceTree = "<group>"; };
+		F54A974B1489120F00F0DAEE /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = city.plist; path = ../city.plist; sourceTree = "<group>"; };
+		F54A975B1489B6D500F0DAEE /* 01-refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-refresh.png"; sourceTree = "<group>"; };
+		F54A975D1489B74100F0DAEE /* 86-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "86-camera.png"; sourceTree = "<group>"; };
+		F54A975F1489B75C00F0DAEE /* 54-lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "54-lock.png"; sourceTree = "<group>"; };
+		F54A9769148AF2A900F0DAEE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54A976A148AF2A900F0DAEE /* QuartzCore.framework in Frameworks */,
 				F54A970D148838F900F0DAEE /* UIKit.framework in Frameworks */,
 				F54A970F148838F900F0DAEE /* Foundation.framework in Frameworks */,
 				F54A9711148838F900F0DAEE /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +112,7 @@
 		F54A96FD148838F900F0DAEE = {
 			isa = PBXGroup;
 			children = (
+				F54A9769148AF2A900F0DAEE /* QuartzCore.framework */,
 				F54A9712148838F900F0DAEE /* owght_2 */,
 				F54A9736148838F900F0DAEE /* owght_2Tests */,
 				F54A970B148838F900F0DAEE /* Frameworks */,
@@ -118,6 +142,10 @@
 		F54A9712148838F900F0DAEE /* owght_2 */ = {
 			isa = PBXGroup;
 			children = (
+				F54A975F1489B75C00F0DAEE /* 54-lock.png */,
+				F54A975D1489B74100F0DAEE /* 86-camera.png */,
+				F54A975B1489B6D500F0DAEE /* 01-refresh.png */,
+				F54A974B1489120F00F0DAEE /* city.plist */,
 				F54A971B148838F900F0DAEE /* owght_2AppDelegate.h */,
 				F54A971C148838F900F0DAEE /* owght_2AppDelegate.m */,
 				F54A971E148838F900F0DAEE /* MainWindow.xib */,
@@ -193,6 +221,7 @@
 				F54A972E148838F900F0DAEE /* ShellScript */,
 			);
 			buildRules = (
+				F54A974D148912E600F0DAEE /* PBXBuildRule */,
 			);
 			dependencies = (
 				F54A9735148838F900F0DAEE /* PBXTargetDependency */,
@@ -234,6 +263,10 @@
 				F54A9720148838F900F0DAEE /* MainWindow.xib in Resources */,
 				F54A9725148838F900F0DAEE /* MainView.xib in Resources */,
 				F54A972A148838F900F0DAEE /* FlipsideView.xib in Resources */,
+				F54A974C1489120F00F0DAEE /* city.plist in Resources */,
+				F54A975C1489B6D500F0DAEE /* 01-refresh.png in Resources */,
+				F54A975E1489B74100F0DAEE /* 86-camera.png in Resources */,
+				F54A97601489B75C00F0DAEE /* 54-lock.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shayan Eskandari (45A3RFSEPG)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -335,6 +369,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "69DED86C-E317-42FF-BE0D-DC446A530FCE";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -343,6 +378,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shayan Eskandari (45A3RFSEPG)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
@@ -350,6 +386,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "69DED86C-E317-42FF-BE0D-DC446A530FCE";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -363,7 +400,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "owght_2/owght_2-Prefix.pch";
 				INFOPLIST_FILE = "owght_2/owght_2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -376,7 +415,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "owght_2/owght_2-Prefix.pch";
 				INFOPLIST_FILE = "owght_2/owght_2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -445,6 +486,7 @@
 				F54A9745148838F900F0DAEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F54A9746148838F900F0DAEE /* Build configuration list for PBXNativeTarget "owght_2Tests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +495,7 @@
 				F54A9748148838F900F0DAEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

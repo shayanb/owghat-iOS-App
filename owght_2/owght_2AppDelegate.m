@@ -12,10 +12,10 @@
 
 @implementation owght_2AppDelegate
 
-
 @synthesize window=_window;
-
 @synthesize mainViewController=_mainViewController;
+
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

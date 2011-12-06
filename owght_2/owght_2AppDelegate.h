@@ -8,14 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+
+
 @class MainViewController;
 
 @interface owght_2AppDelegate : NSObject <UIApplicationDelegate> {
 
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
 
+
+@property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet MainViewController *mainViewController;
 
 @end

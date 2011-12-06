@@ -12,7 +12,10 @@
 
 @interface FlipsideViewController : UIViewController {
 
+  
+    
 }
+
 
 @property (nonatomic, assign) id <FlipsideViewControllerDelegate> delegate;
 

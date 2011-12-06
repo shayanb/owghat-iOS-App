@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>Root</key>
+	<array>
+		<string>آذربایجان شرقی</string>
+		<string>آذربایجان غربی</string>
+		<string>اردبیل</string>
+		<string>اصفهان</string>
+		<string>ایلام</string>
+		<string>بوشهر</string>
+		<string>تهران</string>
+		<string>چهارمحال و بختیاری</string>
+		<string>خراسان جنوبی</string>
+		<string>خراسان رضوی</string>
+		<string>خراسان شمالی</string>
+		<string>خوزستان</string>
+		<string>زنجان</string>
+		<string>سمنان</string>
+		<string>سیستان و بلوچستان</string>
+		<string>فارس</string>
+		<string>قزوین</string>
+		<string>قم</string>
+		<string>کردستان</string>
+		<string>کرمان</string>
+		<string>کرمانشاه</string>
+		<string>کهگیلویه و بویراحمد</string>
+		<string>گلستان</string>
+		<string>گیلان</string>
+		<string>لرستان</string>
+		<string>مازندران</string>
+		<string>مرکزی</string>
+		<string>هرمزگان</string>
+		<string>همدان</string>
+		<string>یزد</string>
+	</array>
+</dict>
+</plist>
